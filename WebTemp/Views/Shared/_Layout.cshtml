@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Snoopy I Fast build Admin dashboard for any platform</title>
+    <meta name="description" content="Snoopy is a Dashboard & Admin Site Responsive Template by hencework." />
+    <meta name="keywords" content="admin, admin dashboard, admin template, cms, crm, Snoopy Admin, Snoopyadmin, premium admin templates, responsive admin, sass, panel, software, ui, visualization, web app, application" />
+    <meta name="author" content="hencework" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Data table CSS -->
+    <link href="~/Content/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Toast CSS -->
+    <link href="~/Content/vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="~/Content/dist/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <<div class="wrapper box-layout theme-1-active pimary-color-blue">
+    <!-- Top Menu Items -->
+    @Html.Partial("_NavBar")
+    <!-- /Top Menu items -->
+    <!-- Left Sidebar Menu -->
+    @Html.Partial("_SideBarLeft")
+    <!-- /Left Sidebar Menu -->
+    <!-- Right Sidebar Menu -->
+    @Html.Partial("_SideBarRight")
+    <!-- /Right Sidebar Menu -->
+    <!-- Right Sidebar Backdrop -->
+    <div class="right-sidebar-backdrop"></div>
+    <!-- /Right Sidebar Backdrop -->
+    <!-- Main Content -->
+    @RenderBody()
+    <!-- /Main Content -->
+</div>
+    <!-- JavaScript -->
+    <!-- jQuery -->
+    <script src="~/Content/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Data table JavaScript -->
+    <script src="~/Content/vendors/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+
+    <!-- Slimscroll JavaScript -->
+    <script src="~/Content/dist/js/jquery.slimscroll.js"></script>
+
+    <!-- Progressbar Animation JavaScript -->
+    <script src="~/Content/vendors/bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="~/Content/vendors/bower_components/jquery.counterup/jquery.counterup.min.js"></script>
+
+    <!-- Fancy Dropdown JS -->
+    <script src="~/Content/dist/js/dropdown-bootstrap-extended.js"></script>
+
+    <!-- Sparkline JavaScript -->
+    <script src="~/Content/vendors/jquery.sparkline/dist/jquery.sparkline.min.js"></script>
+
+    <!-- Owl JavaScript -->
+    <script src="~/Content/vendors/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+
+    <!-- Switchery JavaScript -->
+    <script src="~/Content/vendors/bower_components/switchery/dist/switchery.min.js"></script>
+
+    <!-- EChartJS JavaScript -->
+    <script src="~/Content/vendors/bower_components/echarts/dist/echarts-en.min.js"></script>
+    <script src="~/Content/vendors/echarts-liquidfill.min.js"></script>
+
+    <!-- Toast JavaScript -->
+    <script src="~/Content/vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+
+    <!-- Init JavaScript -->
+    <script src="~/Content/dist/js/init.js"></script>
+    <script src="~/Content/dist/js/dashboard-data.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer container-fluid pl-30 pr-30">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>2018 &copy; Snoopy. Pampered by Hencework</p>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+</body>
+</html>
