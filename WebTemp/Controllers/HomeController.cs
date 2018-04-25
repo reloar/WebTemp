@@ -9,8 +9,9 @@ namespace WebTemp.Controllers
    
     public class HomeController : Controller
     {
-        [Authorize]
+      
         // GET: Home
+        [Authorize]
         public ActionResult Index()
         {
             
